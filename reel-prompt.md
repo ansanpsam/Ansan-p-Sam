@@ -1,13 +1,35 @@
 # Prompt for one reel per cloud session
 
-Copy everything between the two lines into a new cloud session that has the `ansanpsam/ansan-p-sam` repository attached. Change only the TOPIC line, and the LANGUAGE line if you want. Give each session a different topic. There's a list of 20 below the prompt.
+Copy everything between the two lines into a new cloud session that has the `ansanpsam/ansan-p-sam` repository attached. Change only the REEL NUMBER (1 to 20) so each session makes a different reel. The language is English.
 
 ---
 
-TOPIC: <one line, e.g. "The phone you check first thing every morning">
-LANGUAGE: English
+REEL NUMBER: 1
 
-Make one finished faceless Instagram reel about the TOPIC above, using the viral-agent skills from https://github.com/hadi-a-azeez/viral-agent. Work start to finish without stopping to ask me anything. Where a skill says to wait for the user, pick the best option yourself and note it in the final report.
+Make one finished faceless Instagram reel in English. Its topic is the one with the REEL NUMBER above in this list:
+
+1. The phone you check first thing every morning
+2. The gym bag that's been packed by the door for weeks
+3. The 10,000 unread emails, and the one that matters
+4. The plant you forget to water, and the friend you forget to call
+5. The alarm you snooze five times
+6. The savings jar that never fills, because of the small daily spends
+7. The half-finished project folder on your laptop
+8. The tea that goes cold while you scroll
+9. The shoes you bought for running and never ran in
+10. The voice note to your parents you keep putting off
+11. The desk that's so messy you can't start working
+12. The notebook with only the first page used
+13. The lamp left on all night: rest is not laziness
+14. The suitcase for the trip you keep postponing
+15. The phone battery vs your social battery
+16. The water bottle you carry and never drink from
+17. The door you're afraid to knock on (asking for help)
+18. The clock at 2 a.m.: revenge bedtime procrastination
+19. The receipt pile: knowing where your money goes
+20. The candle that burns at both ends (burnout)
+
+Make it using the viral-agent skills from https://github.com/hadi-a-azeez/viral-agent. Work start to finish without stopping to ask me anything. Where a skill says to wait for the user, pick the best option yourself and note it in the final report.
 
 ## 1. Install and set up (about 2 minutes)
 
@@ -58,28 +80,3 @@ In the attached `ansan-p-sam` repo, on this session's branch, create `reels/<sho
 - Anything I should look at or listen to before posting
 
 ---
-
-## 20 topic ideas
-
-Everyday, object-based ideas, which these skills draw best. Swap in your own niche anytime.
-
-1. The phone you check first thing every morning
-2. The gym bag that's been packed by the door for weeks
-3. The 10,000 unread emails, and the one that matters
-4. The plant you forget to water, and the friend you forget to call
-5. The alarm you snooze five times
-6. The savings jar that never fills, because of the small daily spends
-7. The half-finished project folder on your laptop
-8. The tea that goes cold while you scroll
-9. The shoes you bought for running and never ran in
-10. The voice note to your parents you keep putting off
-11. The desk that's so messy you can't start working
-12. The notebook with only the first page used
-13. The lamp left on all night: rest is not laziness
-14. The suitcase for the trip you keep postponing
-15. The phone battery vs your social battery
-16. The water bottle you carry and never drink from
-17. The door you're afraid to knock on (asking for help)
-18. The clock at 2 a.m.: revenge bedtime procrastination
-19. The receipt pile: knowing where your money goes
-20. The candle that burns at both ends (burnout)
