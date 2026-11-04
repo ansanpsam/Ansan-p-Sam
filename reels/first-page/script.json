@@ -1,0 +1,26 @@
+{
+  "title": "The first page",
+  "language": "en",
+  "label": "ONE PAGE. THEN NOTHING.",
+  "lead": "Hook 1, because almost everyone has a notebook like this and recognises it on sight.",
+  "style": { "accent": "#F2C14E" },
+  "hooks": [
+    { "shape": "Instant recognition", "label": "ONE PAGE. THEN NOTHING.", "say": "You buy a new notebook, write one perfect page, and never open it again." },
+    { "shape": "The question nobody asked", "label": "TOO NICE TO WRITE IN?", "say": "Why does a brand new notebook feel too good to write in?" },
+    { "shape": "Two sides", "label": "PERFECT PAGE | FULL NOTEBOOK", "say": "A perfect first page, or a full messy notebook. You only get one." }
+  ],
+  "beats": [
+    { "id": "b1", "say": "You buy a new *notebook*, write one perfect page, and never open it again.", "scene": "A fresh notebook drops onto a warm wooden desk and falls open on one neat, inked first page. A pen rolls to a stop beside it." },
+    { "id": "b2", "say": "Because the next page might look *worse* than the first one did.", "scene": "Close and low over the page edge. The pages fan past, every one of them blank and white." },
+    { "id": "b3", "say": "So it sits on the shelf, still looking new, waiting for the right day.", "scene": "A dim shelf at dusk. The notebook stands between old books, dust floating in a thin beam of light." },
+    { "id": "b4", "say": "But a notebook was made to get *messy*, crossed out, coffee stained.", "scene": "Top down on the open spread. Lines of scribble race across, words get crossed out, and a mug ring lands on the corner." },
+    { "id": "b5", "say": "Page two is allowed to be ugly. That's where it actually *starts*.", "scene": "A page turns. A pen draws one wobbly line across the clean second page and the lamp warms up." },
+    { "id": "b6", "say": "Send this to the friend with a drawer full of *first pages*.", "scene": "A desk drawer slides open, full of notebooks stacked on their sides, each with one page used, lit warm from above." }
+  ],
+  "sfx": [
+    { "beat": "b1", "word": "notebook", "kind": "pop", "db": -14 },
+    { "beat": "b4", "word": "messy", "kind": "pop", "db": -14 },
+    { "beat": "b6", "at": 0.3, "kind": "click", "db": -12 }
+  ],
+  "sources": []
+}
