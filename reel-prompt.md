@@ -29,17 +29,18 @@ Make one finished faceless Instagram reel in English. Its topic is the one with 
 19. The receipt pile: knowing where your money goes
 20. The candle that burns at both ends (burnout)
 
-Make it using the viral-agent skills from https://github.com/hadi-a-azeez/viral-agent. Work start to finish without stopping to ask me anything. Where a skill says to wait for the user, pick the best option yourself and note it in the final report.
+Make it using the viral-agent skills that are committed in this repo under `.claude/skills/` (viral-script, viral-animate, viral-voice, viral-check). Use that copy. Don't clone or download the skills from anywhere else. Work start to finish without stopping to ask me anything. Where a skill says to wait for the user, pick the best option yourself and note it in the final report.
 
-## 1. Install and set up (about 2 minutes)
+## 1. Set up (about 2 minutes)
+
+From the repo root:
 
 ```bash
-mkdir -p ~/dl && cd ~/dl && git clone --depth 1 https://github.com/hadi-a-azeez/viral-agent
-mkdir -p ~/.claude/skills && cp -r ~/dl/viral-agent/skills/viral-* ~/.claude/skills/
-bash ~/.claude/skills/viral-animate/setup.sh
-bash ~/.claude/skills/viral-voice/setup.sh
+SK="$PWD/.claude/skills"
+bash "$SK/viral-animate/setup.sh"
+bash "$SK/viral-voice/setup.sh"
 ```
-Then read the SKILL.md of viral-script, viral-animate, viral-voice and viral-check in `~/.claude/skills/`, plus `viral-animate/example/scenes.js`, and follow them.
+Then read the SKILL.md of viral-script, viral-animate, viral-voice and viral-check in `.claude/skills/`, plus `.claude/skills/viral-animate/example/scenes.js`, and follow them. The scripts they mention live next to each SKILL.md: always call them by their full path under `$SK`.
 
 Known fixes for this cloud environment:
 - **Voice fails with `CERTIFICATE_VERIFY_FAILED`.** edge-tts only trusts certifi's bundle, which doesn't include this environment's HTTPS proxy CA. Append the proxy CA to that bundle once: `cat /root/.ccr/ca-bundle.crt >> "$(~/.viral-agent/py/bin/python -c 'import certifi;print(certifi.where())')"`. Never turn TLS verification off.
