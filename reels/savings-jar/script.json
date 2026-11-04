@@ -1,0 +1,97 @@
+{
+  "title": "The jar that never fills",
+  "language": "en",
+  "label": "THE JAR THAT NEVER FILLS",
+  "lead": "Hook 2, because everyone has watched savings stay flat without buying anything big, and the question opens a gap the last beats close.",
+  "style": {
+    "accent": "#F2B544"
+  },
+  "hooks": [
+    {
+      "shape": "The object truth",
+      "label": "YOUR JAR VS YOUR COFFEE",
+      "say": "Your savings jar gets a coin on payday. Your coffee gets one every morning."
+    },
+    {
+      "shape": "The real-life why",
+      "label": "THE JAR THAT NEVER FILLS",
+      "say": "Why does your savings jar stay *empty* when you never buy anything big?"
+    },
+    {
+      "shape": "Instant recognition",
+      "label": "WHERE DID IT ALL GO?",
+      "say": "You open your banking app, see the balance, and wonder where it all went."
+    }
+  ],
+  "beats": [
+    {
+      "id": "b1",
+      "say": "Why does your savings jar stay *empty* when you never buy anything big?",
+      "scene": "A glass savings jar on a dark table. A single coin drops through the lid slot and rattles at the bottom, alone."
+    },
+    {
+      "id": "b2",
+      "say": "Because the money slips out in bits too *small* to notice.",
+      "scene": "Low side angle on the jar. Coins lift out of it one by one and drift away into the dark."
+    },
+    {
+      "id": "b3",
+      "say": "A coffee on the way, a snack after lunch, a little delivery fee.",
+      "scene": "High angle on a pale counter. A coffee cup, a snack box and a phone showing a delivery fee land one after another on each word."
+    },
+    {
+      "id": "b4",
+      "say": "None of them feel worth counting, so the month ends and the jar *hasn't* moved.",
+      "scene": "Night room. Receipts flutter down and pile up beside the jar while a wall calendar flips its pages. The jar stays as empty as before."
+    },
+    {
+      "id": "b5",
+      "say": "Watch the small spends for just one week, and you'll see where it *goes*.",
+      "scene": "A pendant lamp switches on over the jar. The receipts light up and coins start dropping back into the jar."
+    },
+    {
+      "id": "b6",
+      "say": "Send this to the friend who's always broke, with an iced coffee in hand.",
+      "scene": "Warm room. An iced coffee cup beside a fuller jar, a phone screen lights up with a send arrow."
+    }
+  ],
+  "sfx": [
+    {
+      "beat": "b1",
+      "at": 0.45,
+      "kind": "tick",
+      "db": -12
+    },
+    {
+      "beat": "b3",
+      "word": "coffee",
+      "kind": "pop",
+      "db": -14
+    },
+    {
+      "beat": "b3",
+      "word": "snack",
+      "kind": "pop",
+      "db": -14
+    },
+    {
+      "beat": "b3",
+      "word": "delivery",
+      "kind": "pop",
+      "db": -14
+    },
+    {
+      "beat": "b5",
+      "word": "watch",
+      "kind": "click",
+      "db": -11
+    },
+    {
+      "beat": "b6",
+      "word": "send",
+      "kind": "swipe",
+      "db": -13
+    }
+  ],
+  "sources": []
+}
