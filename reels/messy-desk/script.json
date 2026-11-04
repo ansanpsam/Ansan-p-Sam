@@ -1,0 +1,25 @@
+{
+  "title": "Clear one square",
+  "language": "en",
+  "label": "SAT DOWN. SAW THE DESK.",
+  "lead": "Hook 2, because everyone has dodged a messy desk with a sudden urgent chore, and the laundry is the funny detail people repeat.",
+  "style": { "accent": "#F2B544" },
+  "hooks": [
+    { "shape": "The object truth", "label": "THREE MUGS. NO ROOM.", "say": "Your desk has room for three mugs, two chargers, and none for the actual work." },
+    { "shape": "Instant recognition", "label": "SAT DOWN. SAW THE DESK.", "say": "You sit down to work, see the desk, and suddenly the laundry feels urgent." },
+    { "shape": "The question nobody asked", "label": "WHY CAN'T YOU START?", "say": "Why is the hardest part of working just finding a place to start?" }
+  ],
+  "beats": [
+    { "id": "b1", "say": "You sit down to work, see the desk, and suddenly the *laundry* feels urgent.", "scene": "A desk at night seen from above, buried in mugs, papers, books and tangled cables. The camera pushes in fast as a paper stack slides and topples." },
+    { "id": "b2", "say": "The work is right there, buried under yesterday's mugs and *cables*.", "scene": "Low, close camera gliding along the clutter. A laptop corner peeks out from under papers; a cable snakes over it." },
+    { "id": "b3", "say": "So skip the big clean-up. Clear one square, about the size of a *notebook*.", "scene": "Top-down. Clutter slides outward, leaving one clean rectangle of bare wood. A notebook drops into it." },
+    { "id": "b4", "say": "Put the one thing you're working on there, and nothing *else*.", "scene": "A desk lamp clicks on over the notebook. Everything around it falls into shadow." },
+    { "id": "b5", "say": "The mess can wait. It's been waiting for weeks *anyway*.", "scene": "Wide shot of the desk. Clutter in the dark, one warm pool of light on the clear square, a pen rolls into place." },
+    { "id": "b6", "say": "Send this to the friend whose desk you haven't *seen* in months.", "scene": "Slow pull back from the lit square until the whole messy desk sits small in the dark room, the lamp still glowing." }
+  ],
+  "sfx": [
+    { "beat": "b3", "word": "notebook", "kind": "knock", "db": -14 },
+    { "beat": "b4", "word": "Put", "kind": "click", "db": -11 }
+  ],
+  "sources": []
+}
