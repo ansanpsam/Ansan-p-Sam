@@ -1,0 +1,25 @@
+{
+  "title": "First look",
+  "language": "en",
+  "label": "WHO GETS YOUR FIRST LOOK?",
+  "lead": "Hook 1, because the phone-vs-window contrast is an object truth the animation can show on frame 0, and the viewer is probably holding the phone right now.",
+  "style": { "accent": "#FFB547" },
+  "hooks": [
+    { "shape": "The object truth", "label": "WHO GETS YOUR FIRST LOOK?", "say": "Your *phone* gets the first look of your day. The *window* doesn't." },
+    { "shape": "Instant recognition", "label": "EYES SHUT, THUMB AWAKE", "say": "Your eyes aren't even open, and your thumb has already found the screen." },
+    { "shape": "The question nobody asked", "label": "YOUR FIRST LOOK TODAY", "say": "What was the very first thing you looked at today?" }
+  ],
+  "beats": [
+    { "id": "b1", "say": "Your *phone* gets the first look of your day. The *window* doesn't.", "scene": "Dark bedside table at dawn. A phone lights up face-up and glows cold blue; behind it a curtained window sits grey and ignored." },
+    { "id": "b2", "say": "Before your feet touch the floor, the screen is already choosing your *mood*.", "scene": "Close on the phone screen: notification cards slide in and stack, the blue glow washing over the bedsheet edge." },
+    { "id": "b3", "say": "Someone else's news, someone else's holiday, someone else's *opinion*.", "scene": "Three cards flip past on the screen in turn: a headline block, a beach photo block, a speech-bubble block." },
+    { "id": "b4", "say": "Meanwhile the *light* has been waiting at the curtain the whole time.", "scene": "Camera turns to the window. A warm gold line of sunlight glows along the curtain edge and creeps across the floor." },
+    { "id": "b5", "say": "So give the first minute to the *window*, and let the phone have the rest.", "scene": "The phone flips face-down and goes dark. The curtain slides open and warm light fills the room." },
+    { "id": "b6", "say": "Send this to the friend who replies to texts before saying *good morning*.", "scene": "A cup of tea on the sill steaming in the sunlight, the phone face-down beside it. Type: good morning." }
+  ],
+  "sfx": [
+    { "beat": "b1", "word": "phone", "kind": "click", "db": -13 },
+    { "beat": "b5", "word": "window", "kind": "pop", "db": -12 }
+  ],
+  "sources": []
+}
