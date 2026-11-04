@@ -1,0 +1,29 @@
+{
+  "title": "The bag by the door",
+  "language": "en",
+  "label": "PACKED FOR WEEKS. STILL HERE.",
+  "lead": "Hook 1, because the object-truth shape lands the conflict in one breath and everyone who owns a gym bag has seen this exact one.",
+  "style": { "accent": "#FF8A3D" },
+  "hooks": [
+    { "shape": "The object truth", "label": "PACKED FOR WEEKS. STILL HERE.", "say": "Your gym bag has been ready for weeks. You haven't." },
+    { "shape": "Instant recognition", "label": "THE BAG YOU STEP OVER", "say": "You step around the same gym bag every morning and promise it tomorrow." },
+    { "shape": "The question nobody asked", "label": "IF YOUR GYM BAG COULD TALK", "say": "What would your gym bag say, if it could talk?" }
+  ],
+  "beats": [
+    { "id": "b1", "say": "Your gym bag has been *ready* for weeks. You haven't.", "scene": "A packed duffel bag slumps down by a closed front door, dust drifting in a thin line of light under the door." },
+    { "id": "b2", "say": "Shoes packed, towel folded, bottle full. It did its *part*.", "scene": "Close on the bag: shoes, a folded towel and a water bottle pop up out of the open zip one by one." },
+    { "id": "b3", "say": "And every morning, you walk around it and say *tomorrow*.", "scene": "A wall clock above the bag spins through mornings while the light flips from day to night and back. The bag never moves." },
+    { "id": "b4", "say": "You're waiting for a perfect *Monday*, a perfect plan.", "scene": "A tear-off calendar on the wall flips its pages, each one the same word, MONDAY." },
+    { "id": "b5", "say": "The bag's only waiting for one small *step* out that door.", "scene": "The door swings open and warm morning light floods across the floor onto the bag." },
+    { "id": "b6", "say": "Send this to the friend whose bag is still by the *door*.", "scene": "Wide shot: the open doorway glowing, the bag sitting in the light, a sign reading TODAY on the bag tag." }
+  ],
+  "sfx": [
+    { "beat": "b1", "word": "ready", "kind": "thump", "db": -12 },
+    { "beat": "b2", "word": "shoes", "kind": "pop", "db": -15 },
+    { "beat": "b2", "word": "towel", "kind": "pop", "db": -15 },
+    { "beat": "b2", "word": "bottle", "kind": "pop", "db": -15 },
+    { "beat": "b4", "word": "monday", "kind": "tick", "db": -13 },
+    { "beat": "b5", "word": "step", "kind": "knock", "db": -12 }
+  ],
+  "sources": []
+}
