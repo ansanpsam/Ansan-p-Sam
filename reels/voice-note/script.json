@@ -1,0 +1,27 @@
+{
+  "title": "The voice note",
+  "language": "en",
+  "label": "THEY HAVEN'T HEARD YOU THIS WEEK",
+  "lead": "Hook 1, the object truth: the phone that hears you all day against parents who haven't, a contrast a stranger gets with no context.",
+  "style": { "accent": "#FFB35C" },
+  "sfx_auto": false,
+  "hooks": [
+    { "shape": "The object truth", "label": "THEY HAVEN'T HEARD YOU THIS WEEK", "say": "Your phone hears your voice all day. Your parents haven't heard it this week." },
+    { "shape": "Instant recognition", "label": "THE VOICE NOTE YOU DELETED", "say": "You hold the mic, say hi Mum, then cancel it before it sends." },
+    { "shape": "The question nobody asked", "label": "WHEN DID THEY LAST HEAR YOU?", "say": "When did your parents last hear your actual voice, and not a text?" }
+  ],
+  "beats": [
+    { "id": "b1", "say": "Your phone hears your *voice* all day. Your parents haven't heard it this week.", "scene": "A phone on a dark table buzzing, screen full of a live voice waveform, a pushed-in camera." },
+    { "id": "b2", "say": "Their chat is right there, a *microphone* you never hold.", "scene": "Overhead on the phone: a chat titled Mum & Dad at the top, a round mic button pulsing, untouched." },
+    { "id": "b3", "say": "You keep saving it for *later*, for when there's news.", "scene": "A night desk. A wall clock spins forward, books stack up, the phone face down beside a mug." },
+    { "id": "b4", "say": "But they don't need news, they just want to hear you're *okay*.", "scene": "A different room: warm kitchen at home, two mugs and an old phone on a table, screen dark, waiting." },
+    { "id": "b5", "say": "So hold it down and say *hi*. That's the whole message.", "scene": "Back on your phone: the mic button presses in, a waveform grows, the word hi drawn as the wave." },
+    { "id": "b6", "say": "Send this to someone whose parents are still waiting on that *voice* *note*.", "scene": "The kitchen again: the old phone lights up with a play button, warm light swells across the room." }
+  ],
+  "sfx": [
+    { "beat": "b1", "at": 0.05, "kind": "thump", "db": -16 },
+    { "beat": "b5", "word": "hold", "kind": "click", "db": -13 },
+    { "beat": "b6", "word": "waiting", "kind": "pop", "db": -14 }
+  ],
+  "sources": []
+}
