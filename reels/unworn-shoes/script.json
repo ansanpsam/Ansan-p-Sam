@@ -1,0 +1,73 @@
+{
+  "title": "Still smell like the shop",
+  "language": "en",
+  "label": "STILL SMELL LIKE THE SHOP",
+  "lead": "Hook 1 (Instant recognition), because one exact, slightly funny detail, the new-shoe smell, makes the viewer feel caught in the first second.",
+  "style": {
+    "accent": "#FF7A45"
+  },
+  "hooks": [
+    {
+      "shape": "Instant recognition",
+      "label": "STILL SMELL LIKE THE SHOP",
+      "say": "Your running shoes still smell like the shop."
+    },
+    {
+      "shape": "The object truth",
+      "label": "THEY GOT THE BEST SPOT",
+      "say": "Your running shoes got tissue paper and the best spot by the door. Never a run."
+    },
+    {
+      "shape": "The real-life why",
+      "label": "WHY THEY NEVER LEAVE THE BOX",
+      "say": "Why do the shoes we buy for running never leave the box?"
+    }
+  ],
+  "beats": [
+    {
+      "id": "b1",
+      "say": "Your running shoes still smell like the *shop*.",
+      "scene": "A shoebox lid pops up and slides off. Clean white running shoes sit in tissue paper."
+    },
+    {
+      "id": "b2",
+      "say": "You bought them on a Sunday night, and in your head, you'd already *run*.",
+      "scene": "The pair placed neatly by a door at night, a wall clock past eleven, laces perfect."
+    },
+    {
+      "id": "b3",
+      "say": "Then Monday was too cold, Tuesday was too busy, and the box went under the *bed*.",
+      "scene": "Low angle: the shoebox slides across the floor and disappears under a bed into the dark."
+    },
+    {
+      "id": "b4",
+      "say": "But the shoes were never the hard part. The *door* was.",
+      "scene": "A closed front door, a thin line of morning light under it. The camera pushes in slowly."
+    },
+    {
+      "id": "b5",
+      "say": "So tomorrow, put them on, and walk to the end of the *street*.",
+      "scene": "The door swings open, warm morning light floods the floor and reaches the shoes."
+    },
+    {
+      "id": "b6",
+      "say": "Send this to the friend whose shoes are still *white*.",
+      "scene": "Close on the spotless shoes in the doorway light, one lace slowly coming loose, ready."
+    }
+  ],
+  "sfx": [
+    {
+      "beat": "b1",
+      "at": 0.1,
+      "kind": "pop",
+      "db": -13
+    },
+    {
+      "beat": "b5",
+      "at": 0.2,
+      "kind": "click",
+      "db": -11
+    }
+  ],
+  "sources": []
+}
