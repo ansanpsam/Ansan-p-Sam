@@ -33,20 +33,26 @@ Make it using the viral-agent skills that are committed in this repo under `.cla
 
 ## 1. Set up (about 2 minutes)
 
-From the repo root:
+Run every command from the repo root, exactly in these forms (repo-relative paths, no `cd`, no `$SK` variable). The repo's permission rules match these forms:
 
 ```bash
-SK="$PWD/.claude/skills"
-bash "$SK/viral-animate/setup.sh"
-bash "$SK/viral-voice/setup.sh"
+bash .claude/skills/viral-animate/setup.sh
+bash .claude/skills/viral-voice/setup.sh
+python3 .claude/skills/viral-script/lint_script.py <project>
+python3 .claude/skills/viral-animate/timing.py <project>
+node .claude/skills/viral-animate/render.mjs <project> --stills beats
+python3 .claude/skills/viral-voice/voice.py <project>
+python3 .claude/skills/viral-voice/finish.py <project>
+python3 .claude/skills/viral-check/check.py <project>
 ```
-Then read the SKILL.md of viral-script, viral-animate, viral-voice and viral-check in `.claude/skills/`, plus `.claude/skills/viral-animate/example/scenes.js`, and follow them. The scripts they mention live next to each SKILL.md: always call them by their full path under `$SK`.
+Then read the SKILL.md of viral-script, viral-animate, viral-voice and viral-check in `.claude/skills/`, plus `.claude/skills/viral-animate/example/scenes.js`, and follow them. When a SKILL.md names a script, run it in the form above.
 
 Known fixes for this cloud environment:
-- **Voice fails with `CERTIFICATE_VERIFY_FAILED`.** edge-tts only trusts certifi's bundle, which doesn't include this environment's HTTPS proxy CA. Append the proxy CA to that bundle once: `cat /root/.ccr/ca-bundle.crt >> "$(~/.viral-agent/py/bin/python -c 'import certifi;print(certifi.where())')"`. Never turn TLS verification off.
+- **Voice certificate errors** are handled by `viral-voice/setup.sh`, which adds this environment's proxy CA to the voice engine's trust store. Never turn TLS verification off.
 - **Voice fails with `NoAudioReceived` on a random beat.** The free voice service is flaky. Re-run `voice.py` up to 8 times, waiting 10 seconds between tries. Don't change the script because of it.
 - **Do not reinstall Playwright.** setup.sh's browser check passes with what's already installed.
 - **The full render is slow**, about 20 minutes for 20 seconds, because there's no GPU. Run `finish.py` as a background command with a long timeout (40 minutes) and wait for it to finish. Don't start a second copy.
+- **If a command is refused by a permission check**, don't work around it. Stop and report which command was refused.
 
 ## 2. Script (viral-script)
 
