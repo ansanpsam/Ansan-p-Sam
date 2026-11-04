@@ -1,0 +1,27 @@
+{
+  "title": "The folder called final",
+  "language": "en",
+  "label": "THE FOLDER CALLED FINAL",
+  "lead": "Hook 1, because almost everyone has a 'final' file that isn't, and frame 0 can show that folder name on the screen.",
+  "style": { "accent": "#FFB547" },
+  "hooks": [
+    { "shape": "Instant recognition", "label": "THE FOLDER CALLED FINAL", "say": "There's a folder on your laptop called *final*, and it's nowhere near final." },
+    { "shape": "The object truth", "label": "SAVED FOREVER. NEVER OPENED.", "say": "Your laptop keeps every half-finished idea safe, and you never open them." },
+    { "shape": "The real-life why", "label": "WHERE YOUR BEST IDEAS GO", "say": "Why does the idea you loved most end up buried in a folder?" }
+  ],
+  "beats": [
+    { "id": "b1", "say": "There's a folder on your laptop called *final*, and it's nowhere near final.", "scene": "A dark desk. A laptop flips open fast; on the screen, one amber folder named FINAL. A cursor hovers, and the folder shudders on 'nowhere'." },
+    { "id": "b2", "say": "Inside is a plan you were so sure about, and a *draft* that stops mid-sentence.", "scene": "Close and angled on the screen. A tidy plan page, then on 'draft' a page whose last line stops halfway, the caret blinking." },
+    { "id": "b3", "say": "Every time you see it, you *close* the laptop, because finishing feels huge.", "scene": "Wide side view, one desk lamp. On 'close' the lid shuts, the screen glow dies and the room drops into lamplight." },
+    { "id": "b4", "say": "So open it tonight and do one *small* part, like fixing a single page.", "scene": "Straight down from above. The lid lifts on 'open'; on 'small' one line on the page turns amber and a progress bar ticks forward a sliver." },
+    { "id": "b5", "say": "Then rename that folder something honest, like *started again*.", "scene": "Morning light, warm sand room. Flat-on screen: the name FINAL is deleted letter by letter and 'started again' types in." },
+    { "id": "b6", "say": "Send this to the friend with a folder called final, final, *really final*.", "scene": "The screen fills with folders: final, final_2, final_FINAL, really_final, multiplying as the camera pulls back from the laptop." }
+  ],
+  "sfx": [
+    { "beat": "b3", "word": "close", "kind": "knock", "db": -12 },
+    { "beat": "b4", "word": "small", "kind": "tick", "db": -13 },
+    { "beat": "b5", "word": "started", "kind": "pop", "db": -14 },
+    { "beat": "b6", "word": "really", "kind": "stamp", "db": -13 }
+  ],
+  "sources": []
+}
