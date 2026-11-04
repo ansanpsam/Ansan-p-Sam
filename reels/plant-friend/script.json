@@ -1,0 +1,78 @@
+{
+  "title": "Water them too",
+  "language": "en",
+  "label": "PLANT GETS WATERED. YOUR FRIEND?",
+  "lead": "Hook 1 (The object truth), because the drooping plant is a picture everyone gets on frame 0 and the turn to the friend lands in one breath.",
+  "style": {
+    "accent": "#9BE36B"
+  },
+  "hooks": [
+    {
+      "shape": "The object truth",
+      "label": "PLANT GETS WATERED. YOUR FRIEND?",
+      "say": "Your plant droops, so you water it. Your friend goes *quiet*, and you scroll past."
+    },
+    {
+      "shape": "Instant recognition",
+      "label": "YOU MEAN TO CALL THEM",
+      "say": "Their name pops up, you think I should call them, and then you *don't*."
+    },
+    {
+      "shape": "The question nobody asked",
+      "label": "WHO CHECKS ON THEM?",
+      "say": "When did you last check on the friend who always checks on *you*?"
+    }
+  ],
+  "beats": [
+    {
+      "id": "b1",
+      "say": "Your plant droops, so you water it. Your friend goes *quiet*, and you scroll past.",
+      "scene": "A small potted plant on a sunny windowsill table, leaves sagging. The leaves droop further as the line lands."
+    },
+    {
+      "id": "b2",
+      "say": "Plants are honest, they droop the moment they're *thirsty*.",
+      "scene": "Low close angle on the plant and cracked dry soil, dust in the window light."
+    },
+    {
+      "id": "b3",
+      "say": "People don't. They just reply a little slower, and stop asking how you *are*.",
+      "scene": "A phone flat on a dark table, a chat whose messages get shorter and further apart, typing dots that fade away."
+    },
+    {
+      "id": "b4",
+      "say": "And you keep meaning to call them *tomorrow*.",
+      "scene": "A wall clock spinning through days, the room light swinging between morning blue and night, the plant on the sill wilting more."
+    },
+    {
+      "id": "b5",
+      "say": "But they're like plants in one way, a little water brings them *back*.",
+      "scene": "A watering can tips, water pours, the plant lifts upright and turns green."
+    },
+    {
+      "id": "b6",
+      "say": "So call them tonight, even a short call *counts*.",
+      "scene": "The phone lights up with a calling screen, warm lamp light filling the room."
+    },
+    {
+      "id": "b7",
+      "say": "And if someone came to mind just now, send this to *them*.",
+      "scene": "The revived plant beside the glowing phone at golden hour, a new leaf unfurling."
+    }
+  ],
+  "sfx": [
+    {
+      "beat": "b5",
+      "word": "water",
+      "kind": "swell",
+      "db": -16
+    },
+    {
+      "beat": "b6",
+      "word": "call",
+      "kind": "pop",
+      "db": -14
+    }
+  ],
+  "sources": []
+}
