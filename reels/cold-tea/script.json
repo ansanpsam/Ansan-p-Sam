@@ -1,0 +1,31 @@
+{
+  "title": "Cold tea",
+  "language": "en",
+  "label": "YOUR TEA IS GETTING COLD",
+  "lead": "Hook 1 (The object truth), because the contrast between phone and tea lands in the first sentence and the kit draws those two objects best.",
+  "style": { "accent": "#F2A65A" },
+  "hooks": [
+    { "shape": "The object truth", "label": "YOUR TEA IS GETTING COLD", "say": "Your phone gets your full attention. Your *tea* just gets cold." },
+    { "shape": "Instant recognition", "label": "FIRST SIP HOT. NEXT SIP COLD.", "say": "You make tea, sit down, open your phone, and the next sip is *cold*." },
+    { "shape": "The question nobody asked", "label": "WHEN DID YOU FINISH IT HOT?", "say": "When did you last finish a cup of tea while it was still *hot*?" }
+  ],
+  "beats": [
+    { "id": "b1", "say": "Your phone gets your full attention. Your *tea* just gets cold.",
+      "scene": "Top-down on a dark table: a steaming mug above a bright, buzzing phone. On 'cold' the steam thins out." },
+    { "id": "b2", "say": "You made it properly, the good mug, just the right *sugar*.",
+      "scene": "Warm morning light, low angle on the mug. Thick steam. A sugar cube drops in on 'sugar'." },
+    { "id": "b3", "say": "Then one quick look becomes a long scroll through other people's *lives*.",
+      "scene": "A dark room. A phone stands upright on the table, its feed scrolling faster and faster, its glow the only light." },
+    { "id": "b4", "say": "The steam gets thinner and you never even see it *go*.",
+      "scene": "Close on the mug. The last wisps of steam fade and the light cools from amber to blue on 'go'." },
+    { "id": "b5", "say": "So turn the phone face down and drink it while it's *warm*.",
+      "scene": "The phone flips face down and its glow dies. The room warms up and steam rises again on 'warm'." },
+    { "id": "b6", "say": "Hot tea waits for nobody. Most good moments don't either.",
+      "scene": "Wide and quiet: the mug alone on the table in a pool of warm light, steam curling, a sign on the wall reads DRINK IT HOT." }
+  ],
+  "sfx": [
+    { "beat": "b2", "word": "sugar", "kind": "pop", "db": -14 },
+    { "beat": "b5", "word": "face", "kind": "knock", "db": -12 }
+  ],
+  "sources": []
+}
