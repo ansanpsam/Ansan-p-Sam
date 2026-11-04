@@ -1,0 +1,26 @@
+{
+  "title": "Social battery",
+  "language": "en",
+  "label": "PHONE BATTERY VS SOCIAL BATTERY",
+  "lead": "Hook 1, because the object comparison lands in the first sentence and the pack draws a phone best.",
+  "style": { "accent": "#7CF29A" },
+  "hooks": [
+    { "shape": "The object truth", "label": "PHONE BATTERY VS SOCIAL BATTERY", "say": "Your phone warns you before it dies. Your *social* battery never does." },
+    { "shape": "Two sides", "label": "PHONE BATTERY | SOCIAL BATTERY", "say": "Phone battery, social battery. Only one of them comes with a *warning*." },
+    { "shape": "Instant recognition", "label": "WHEN YOU'RE DONE AT DINNER", "say": "You're laughing at dinner, and inside you're already planning how to *leave*." }
+  ],
+  "beats": [
+    { "id": "b1", "say": "Your phone warns you before it dies. Your *social* battery never does.", "scene": "A phone flat on a dark table, buzzing, its screen showing a low red battery and a warning banner sliding down." },
+    { "id": "b2", "say": "The phone gets a red icon, a pop-up and a *charger*.", "scene": "Close and low over the table: a cable races in and plugs into the phone, the bar turns green." },
+    { "id": "b3", "say": "You just get quieter at dinner, and nobody sees the *red* bar.", "scene": "A dinner table at night, two plates, glasses and a candle. On the wall a large battery sign drains from green to red." },
+    { "id": "b4", "say": "Then you say *yes* to one more plan, because saying no feels rude.", "scene": "An upright phone filling with invitation bubbles, one after another, a big YES stamped on the screen." },
+    { "id": "b5", "say": "So give yourself low power mode. A closed door, a *dim* lamp, an early night.", "scene": "A door swings shut, light glows under it, a pendant bulb dims to a warm low glow." },
+    { "id": "b6", "say": "Send this to the friend who leaves the party early. They're just *charging*.", "scene": "A bedside table at night: a phone plugged in, a heart battery on its screen filling green, the bulb above warming up." }
+  ],
+  "sfx": [
+    { "beat": "b2", "word": "charger", "kind": "pop", "db": -13 },
+    { "beat": "b4", "word": "yes", "kind": "stamp", "db": -14 },
+    { "beat": "b5", "word": "closed", "kind": "knock", "db": -14 }
+  ],
+  "sources": []
+}
