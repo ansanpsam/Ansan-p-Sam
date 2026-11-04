@@ -59,7 +59,8 @@ export default (kit) => {
       },
       update({ lid, y }, t) {
         B(0.3);
-        const pop = prog(t, 0, 0.3, ease.out), slide = prog(t, 0.28, 1.0, ease.inOut);
+        // The lid starts already lifted, so frame 0 shows the white shoes peeking out.
+        const pop = lerp(0.6, 1, prog(t, 0, 0.3, ease.out)), slide = prog(t, 0.28, 1.0, ease.inOut);
         lid.position.set(lerp(0, 1.3, slide), y + 0.34 + pop * 0.3 - slide * 0.2, lerp(0, 0.3, slide));
         lid.rotation.z = -pop * 0.3 + slide * 0.1;
         const push = prog(t, 0, 2.4, ease.out), d = drift(t, 0.012);
@@ -169,7 +170,7 @@ export default (kit) => {
         const loose = prog(t, kit.at('white'), kit.at('white') + 0.45, ease.out);
         const lace = shoes[1].laces[0]; if (lace) { lace.rotation.x = loose * 0.9; lace.position.z = loose * 0.12; lace.position.y = 0.268 - loose * 0.12; }
         const swing = prog(t, 0, 0.6, ease.out), d = drift(t, 0.01);
-        cam(d.x + lerp(1.5, 1.2, swing) - k * 0.5, 1.3 + d.y, lerp(2.6, 2.35, k), 0, -0.05, 0.05, 32);
+        cam(d.x + lerp(1.5, 1.2, swing) - k * 0.5, 1.3 + d.y, lerp(2.6, 2.4, k), 0.12, -0.05, 0.05, 32);
       },
     },
   };
