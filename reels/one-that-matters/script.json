@@ -1,0 +1,26 @@
+{
+  "title": "The one that matters",
+  "language": "en",
+  "label": "THE EMAIL YOU'RE AVOIDING",
+  "lead": "Hook 1, because everyone has one email they know they're avoiding, and the question opens a loop the last beats close.",
+  "style": { "accent": "#FFC94D" },
+  "hooks": [
+    { "shape": "The question nobody asked", "label": "THE EMAIL YOU'RE AVOIDING", "say": "Which email in your inbox have you been *scared* to open?" },
+    { "shape": "The object truth", "label": "THE EMAIL THAT NEVER GETS OPENED", "say": "Your inbox gets checked all day. The one email that matters never gets opened." },
+    { "shape": "Instant recognition", "label": "THAT RED BADGE AGAIN", "say": "You open your inbox, see the red badge, and close it straight away." }
+  ],
+  "beats": [
+    { "id": "b1", "say": "Which email in your inbox have you been *scared* to open?", "scene": "A phone flat on a dark desk, buzzing. The inbox is a wall of grey rows, and one bold row glows amber." },
+    { "id": "b2", "say": "Newsletters, sales, reminders, they all pile up and you *swipe* them away.", "scene": "Pale envelopes rain onto a desk into a heap, then get swept off the edge in one move." },
+    { "id": "b3", "say": "But that one stays bold, and you scroll past it every day.", "scene": "A phone standing upright, its inbox scrolling fast. One bold row slides by and is gone." },
+    { "id": "b4", "say": "A reply you owe, a form, a friend asking *how* you are.", "scene": "One sealed envelope alone under a desk lamp in a dark room, low angle." },
+    { "id": "b5", "say": "The longer it waits, the heavier it gets.", "scene": "The envelope sits on a stack of books. The stack squashes down under it while the room dims." },
+    { "id": "b6", "say": "Open it today. It gets *smaller* the second it's read.", "scene": "Warm daylight. The flap lifts, a letter slides out, and the envelope shrinks to almost nothing." },
+    { "id": "b7", "say": "Send this to someone still *waiting* on your reply.", "scene": "A closed door with warm light under it. An envelope slides across the floor and under the door." }
+  ],
+  "sfx": [
+    { "beat": "b2", "word": "swipe", "kind": "whoosh", "db": -14 },
+    { "beat": "b6", "word": "open", "kind": "pop", "db": -14 }
+  ],
+  "sources": []
+}
