@@ -1,0 +1,73 @@
+{
+  "title": "The lamp left on",
+  "language": "en",
+  "label": "EVEN THE LAMP GETS TO REST",
+  "lead": "Hook 1, because the lamp is on screen from frame 0 and the twist lands in the second sentence.",
+  "style": {
+    "accent": "#FFC864"
+  },
+  "hooks": [
+    {
+      "shape": "The object truth",
+      "label": "EVEN THE LAMP GETS TO REST",
+      "say": "Your desk lamp gets switched off every night. You never do."
+    },
+    {
+      "shape": "The question nobody asked",
+      "label": "WHY DOES REST FEEL GUILTY?",
+      "say": "When did lying down for a minute start to feel like a crime?"
+    },
+    {
+      "shape": "Instant recognition",
+      "label": "THE LAMP IS STILL ON",
+      "say": "You close the laptop, the lamp's still on, and you open it again."
+    }
+  ],
+  "beats": [
+    {
+      "id": "b1",
+      "say": "Your desk lamp gets switched *off* every night. You never do.",
+      "scene": "A warm desk lamp glowing on a dark desk at night, the camera pushing in fast as it hums and flickers once."
+    },
+    {
+      "id": "b2",
+      "say": "It keeps burning over the laptop, the cold tea, and the list you haven't finished.",
+      "scene": "Wide desk shot: a laptop screen glowing, a mug, a paper list, the clock on the wall sliding past midnight."
+    },
+    {
+      "id": "b3",
+      "say": "And the moment you finally stop, a voice in your head calls it *lazy*.",
+      "scene": "The word LAZY stamps onto the wall in the lamp's light, the lamp small below it."
+    },
+    {
+      "id": "b4",
+      "say": "But a bulb that never cools down gets dimmer, and one night it gives *out*.",
+      "scene": "A close bare bulb, flickering weaker and weaker, then going dark."
+    },
+    {
+      "id": "b5",
+      "say": "Rest is how the light comes back on *tomorrow*, so tonight, switch off.",
+      "scene": "The lamp clicks off, the room falls to blue night, then soft morning light rises on the wall and the lamp glows again."
+    },
+    {
+      "id": "b6",
+      "say": "And send this to the friend whose lamp is *still* on.",
+      "scene": "A window at night, one warm lamp lit behind it, the rest of the room dark blue."
+    }
+  ],
+  "sfx": [
+    {
+      "beat": "b3",
+      "word": "lazy",
+      "kind": "stamp",
+      "db": -12
+    },
+    {
+      "beat": "b5",
+      "word": "switch",
+      "kind": "click",
+      "db": -10
+    }
+  ],
+  "sources": []
+}
