@@ -3,24 +3,83 @@
   "language": "ml",
   "label": "FULL AT 8AM. STILL FULL AT 6PM.",
   "lead": "Hook 3 (Instant recognition), because almost everyone has carried a full bottle all day and brought it back home untouched, and the picture of a full bottle says it with the sound off.",
-  "style": { "accent": "#5FD3F3" },
+  "style": {
+    "accent": "#5FD3F3"
+  },
   "hooks": [
-    { "shape": "The object truth", "label": "YOUR BOTTLE GOES EVERYWHERE", "say": "നിങ്ങളുടെ bottle എല്ലാ ദിവസവും office-ൽ വരുന്നുണ്ട്, പക്ഷേ ഒരു തുള്ളി പോലും കുറയുന്നില്ല." },
-    { "shape": "The question nobody asked", "label": "HOW MUCH WATER TODAY?", "say": "ഇന്ന് നിങ്ങൾ ശരിക്കും എത്ര വെള്ളം കുടിച്ചു, ഒന്ന് ആലോചിച്ച് നോക്കിക്കേ?" },
-    { "shape": "Instant recognition", "label": "FULL AT 8AM. STILL FULL AT 6PM.", "say": "രാവിലെ *full* ആയിട്ട് നിറച്ച bottle, വൈകുന്നേരം അതേ പോലെ full ആയിട്ട് വീട്ടിൽ തിരിച്ചെത്തും." }
+    {
+      "shape": "The object truth",
+      "label": "YOUR BOTTLE GOES EVERYWHERE",
+      "say": "നിങ്ങളുടെ bottle എല്ലാ ദിവസവും office-ൽ വരുന്നുണ്ട്, പക്ഷേ ഒരു തുള്ളി പോലും കുറയുന്നില്ല."
+    },
+    {
+      "shape": "The question nobody asked",
+      "label": "HOW MUCH WATER TODAY?",
+      "say": "ഇന്ന് നിങ്ങൾ ശരിക്കും എത്ര വെള്ളം കുടിച്ചു, ഒന്ന് ആലോചിച്ച് നോക്കിക്കേ?"
+    },
+    {
+      "shape": "Instant recognition",
+      "label": "FULL AT 8AM. STILL FULL AT 6PM.",
+      "say": "രാവിലെ *full* ആയിട്ട് നിറച്ച bottle, വൈകുന്നേരം അതേ പോലെ full ആയിട്ട് വീട്ടിൽ തിരിച്ചെത്തും."
+    }
   ],
   "beats": [
-    { "id": "b1", "say": "രാവിലെ *full* ആയിട്ട് നിറച്ച bottle, വൈകുന്നേരം അതേ പോലെ full ആയിട്ട് വീട്ടിൽ തിരിച്ചെത്തും.", "scene": "Morning kitchen counter. A steel water bottle, water pouring in and filling it to the brim, cap dropping on." },
-    { "id": "b2", "say": "എന്നിട്ട് അതിനെ bag-ൽ ഇട്ട് bus-ലും office-ലും ഒക്കെ കൂടെ കൊണ്ടുനടക്കും.", "scene": "An office desk. The bottle lands beside a glowing laptop as the screen fills with messages." },
-    { "id": "b3", "say": "പക്ഷേ ദിവസം മുഴുവൻ അതിന്റെ *cap* ഒന്ന് തുറക്കാൻ പോലും നമ്മൾ മറന്നുപോകും.", "scene": "Close on the cap. It turns a little, stops. A wall clock behind it spins through the afternoon." },
-    { "id": "b4", "say": "അപ്പോ desk-ലെ plant-ന് പോലും നമ്മൾ വെള്ളം ഒഴിക്കും, എന്നിട്ട് നമ്മൾ മാത്രം *ദാഹിച്ച്* ഇരിക്കും.", "scene": "Evening light. The desk plant grows and greens up; the full bottle stands beside it, untouched." },
-    { "id": "b5", "say": "വലിയ routine ഒന്നും വേണ്ട, ഇടയ്ക്ക് ഒരു *sip* മതി.", "scene": "The cap unscrews and lifts off. The water inside the clear window drops a little. Warm light comes up." },
-    { "id": "b6", "say": "ഈ bottle വീട്ടിൽ full ആയിട്ട് തിരിച്ചു കൊണ്ടുവരുന്ന ആൾക്ക് ഇത് *അയച്ചു* കൊടുക്ക്.", "scene": "Night table at home. The bottle, now half full, glows softly in a pool of lamp light." }
+    {
+      "id": "b1",
+      "say": "രാവിലെ *full* ആയിട്ട് നിറച്ച bottle, വൈകുന്നേരം അതേ പോലെ full ആയിട്ട് വീട്ടിൽ തിരിച്ചെത്തും.",
+      "scene": "Morning kitchen counter. A steel water bottle, water pouring in and filling it to the brim, cap dropping on.",
+      "tts": "രാവിലെ ഫുൾ ആയിട്ട് നിറച്ച ബോട്ടിൽ, വൈകുന്നേരം അതേ പോലെ ഫുൾ ആയിട്ട് വീട്ടിൽ തിരിച്ചെത്തും."
+    },
+    {
+      "id": "b2",
+      "say": "എന്നിട്ട് അതിനെ bag-ൽ ഇട്ട് bus-ലും office-ലും ഒക്കെ കൂടെ കൊണ്ടുനടക്കും.",
+      "scene": "An office desk. The bottle lands beside a glowing laptop as the screen fills with messages.",
+      "tts": "എന്നിട്ട് അതിനെ ബാഗിൽ ഇട്ട് ബസ്സിലും ഓഫീസിലും ഒക്കെ കൂടെ കൊണ്ടുനടക്കും."
+    },
+    {
+      "id": "b3",
+      "say": "പക്ഷേ ദിവസം മുഴുവൻ അതിന്റെ *cap* ഒന്ന് തുറക്കാൻ പോലും നമ്മൾ മറന്നുപോകും.",
+      "scene": "Close on the cap. It turns a little, stops. A wall clock behind it spins through the afternoon.",
+      "tts": "പക്ഷേ ദിവസം മുഴുവൻ അതിന്റെ ക്യാപ്പ് ഒന്ന് തുറക്കാൻ പോലും നമ്മൾ മറന്നുപോകും."
+    },
+    {
+      "id": "b4",
+      "say": "അപ്പോ desk-ലെ plant-ന് പോലും നമ്മൾ വെള്ളം ഒഴിക്കും, എന്നിട്ട് നമ്മൾ മാത്രം *ദാഹിച്ച്* ഇരിക്കും.",
+      "scene": "Evening light. The desk plant grows and greens up; the full bottle stands beside it, untouched.",
+      "tts": "അപ്പോ ഡെസ്കിലെ പ്ലാന്റിന് പോലും നമ്മൾ വെള്ളം ഒഴിക്കും, എന്നിട്ട് നമ്മൾ മാത്രം ദാഹിച്ച് ഇരിക്കും."
+    },
+    {
+      "id": "b5",
+      "say": "വലിയ routine ഒന്നും വേണ്ട, ഇടയ്ക്ക് ഒരു *sip* മതി.",
+      "scene": "The cap unscrews and lifts off. The water inside the clear window drops a little. Warm light comes up.",
+      "tts": "വലിയ റുട്ടീൻ ഒന്നും വേണ്ട, ഇടയ്ക്ക് ഒരു സിപ്പ് മതി."
+    },
+    {
+      "id": "b6",
+      "say": "ഈ bottle വീട്ടിൽ full ആയിട്ട് തിരിച്ചു കൊണ്ടുവരുന്ന ആൾക്ക് ഇത് *അയച്ചു* കൊടുക്ക്.",
+      "scene": "Night table at home. The bottle, now half full, glows softly in a pool of lamp light.",
+      "tts": "ഈ ബോട്ടിൽ വീട്ടിൽ ഫുൾ ആയിട്ട് തിരിച്ചു കൊണ്ടുവരുന്ന ആൾക്ക് ഇത് അയച്ചു കൊടുക്ക്."
+    }
   ],
   "sfx": [
-    { "beat": "b1", "word": "bottle", "kind": "pop", "db": -14 },
-    { "beat": "b2", "word": "bag", "kind": "knock", "db": -13 },
-    { "beat": "b5", "word": "sip", "kind": "pop", "db": -12 }
+    {
+      "beat": "b1",
+      "word": "bottle",
+      "kind": "pop",
+      "db": -14
+    },
+    {
+      "beat": "b2",
+      "word": "bag",
+      "kind": "knock",
+      "db": -13
+    },
+    {
+      "beat": "b5",
+      "word": "sip",
+      "kind": "pop",
+      "db": -12
+    }
   ],
   "sources": []
 }
