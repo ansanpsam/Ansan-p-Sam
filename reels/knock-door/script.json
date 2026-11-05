@@ -1,0 +1,27 @@
+{
+  "title": "The door you won't knock on",
+  "language": "ml",
+  "label": "THE DOOR YOU WON'T KNOCK ON",
+  "lead": "Hook 1, the object truth: a closed door and the weeks we stand in front of it is a picture any stranger gets on frame 0, and it sets up the whole reel.",
+  "style": { "accent": "#FFB866" },
+  "sfx_auto": false,
+  "hooks": [
+    { "shape": "The object truth", "label": "THE DOOR YOU WON'T KNOCK ON", "say": "ഒരു door-ൽ knock ചെയ്യാൻ, നമ്മൾ ആഴ്ചകളോളം അതിന്റെ മുന്നിൽ നിൽക്കും." },
+    { "shape": "The question nobody asked", "label": "WHEN DID YOU LAST ASK?", "say": "അവസാനമായി ആരോടെങ്കിലും ഒരു help ചോദിച്ചത് എന്നാണ്, ഓർമ്മയുണ്ടോ?" },
+    { "shape": "Instant recognition", "label": "TYPED IT. DELETED IT.", "say": "help വേണം എന്ന് type ചെയ്യും, എന്നിട്ട് delete ചെയ്ത് ഒന്നുമില്ല എന്ന് അയക്കും." }
+  ],
+  "beats": [
+    { "id": "b1", "say": "ഒരു *door-ൽ* knock ചെയ്യാൻ, നമ്മൾ ആഴ്ചകളോളം അതിന്റെ മുന്നിൽ നിൽക്കും.", "scene": "A dim hallway, one closed door, warm light leaking from the gap under it. Fast push-in toward it." },
+    { "id": "b2", "say": "അപ്പോ മനസ്സിൽ ഒരുപാട് *excuse* വരും, അവർ busy ആയിരിക്കും, ഞാൻ ശല്യമാവും എന്നൊക്കെ.", "scene": "A phone on a dark table. A message 'ഒരു help വേണമായിരുന്നു' is typed, then deleted letter by letter." },
+    { "id": "b3", "say": "എന്നിട്ട് എല്ലാം ഒറ്റയ്ക്ക് *ചുമക്കും*, അത് എത്ര ഭാരമായാലും.", "scene": "A dark room, a chair. Bricks keep dropping onto a stack on it, the stack leaning." },
+    { "id": "b4", "say": "പക്ഷേ ആ door ഒരിക്കലും *lock* ആയിരുന്നില്ല, ഒന്ന് തള്ളിയാൽ മതിയായിരുന്നു.", "scene": "Low angle on the door. On the push it swings open a crack and warm light spills across the floor." },
+    { "id": "b5", "say": "അപ്പുറത്ത് ഇരിക്കുന്നവരും ഒരിക്കൽ ആരുടെയോ door-ൽ *knock* ചെയ്തവരാണ്.", "scene": "The warm room behind the door: a table, two mugs steaming, a lamp on. Someone was ready." },
+    { "id": "b6", "say": "ഇന്ന് ഒന്ന് *knock* ചെയ്യ്, പിന്നെ ആ door-ന് മുന്നിൽ നിൽക്കുന്ന ഒരാൾക്ക് ഇത് അയച്ചു കൊടുക്ക്.", "scene": "Back in the hallway: the door swings wide, warm light floods the hall and the floor." }
+  ],
+  "sfx": [
+    { "beat": "b1", "at": 0.05, "kind": "thump", "db": -16 },
+    { "beat": "b4", "word": "തള്ളിയാൽ", "kind": "swell", "db": -15 },
+    { "beat": "b6", "word": "knock", "kind": "knock", "db": -12 }
+  ],
+  "sources": []
+}
